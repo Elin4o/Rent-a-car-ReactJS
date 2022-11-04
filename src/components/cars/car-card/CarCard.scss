@@ -1,0 +1,38 @@
+.carCard{
+    width: 35rem;
+    height: 23rem;
+    margin: 10px;
+    display: inline-block;
+
+    card-body{
+        text-align: center;
+    }
+
+    img{
+        width: 20rem;
+        height: 15rem;        
+    }
+
+    .list-group{
+        float: right;
+        border: none;
+        font-size: 16px;
+        margin-right: 10%;
+    }
+    .list-group-item {
+        padding: 7px;
+    }
+
+    Button{
+        border-radius: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 30%;
+        background-color:rgba(0, 26, 46, 0.842);
+        border: 1px rgba(0, 26, 46, 0.842);
+        color: white;
+        font-weight: bolder;
+        size: 15rem;
+    }
+}

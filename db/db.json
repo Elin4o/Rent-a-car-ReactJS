@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Elin",
+      "lastName": "Nikolov",
+      "email": "elin4o@gmail.com",
+      "password": "123",
+      "address": "PU FMI",
+      "isAdmin": "true",
+      "isVip": false,
+      "rentedCars": 1
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "address": "test",
+      "email": "test@test.com",
+      "password": "123",
+      "isAdmin": "false",
+      "isVip": false,
+      "id": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "vehicleType": "Economy",
+      "brand": "Hyundai",
+      "model": "Accent",
+      "constructionYear": "2021",
+      "fuelType": "petrol",
+      "numberOfSeats": 4,
+      "picture": "https://cdn2.rcstatic.com/images/car_images/web/ford/fiesta_lrg.jpg",
+      "pricePerDay": "62",
+      "count": 31
+    },
+    {
+      "brand": "Seat",
+      "model": "Leon",
+      "constructionYear": "2020",
+      "vehicleType": "",
+      "fuelType": "",
+      "numberOfSeats": "4",
+      "pricePerDay": "31",
+      "count": "14",
+      "picture": "https://cdn2.rcstatic.com/images/car_images/web/seat/leon_lrg.jpg",
+      "id": 2
+    },
+    {
+      "brand": "Seat",
+      "model": "Sony 4",
+      "constructionYear": "2021",
+      "vehicleType": "Luxury",
+      "fuelType": "Electric",
+      "numberOfSeats": "4",
+      "pricePerDay": "62",
+      "count": "2",
+      "picture": "https://cdn2.rcstatic.com/images/car_images/web/seat/leon_lrg.jpg",
+      "id": 3
+    }
+  ],
+  "rentals": [
+    {
+      "startDate": "2022-11-04T16:24",
+      "endDate": "2022-11-08T16:24",
+      "rentalPrice": "235.60",
+      "customerId": 1,
+      "customerName": "Elin Nikolov",
+      "vehicleId": 1,
+      "rentedVehicle": "Hyundai Accent",
+      "id": 1
+    },
+    {
+      "startDate": "2022-11-04T16:24",
+      "endDate": "2022-11-08T16:24",
+      "rentalPrice": "235.60",
+      "customerId": 2,
+      "customerName": "test test",
+      "vehicleId": 1,
+      "rentedVehicle": "Hyundai Accent",
+      "id": 2
+    }
+  ]
+}
